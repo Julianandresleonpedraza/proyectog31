@@ -1,4 +1,4 @@
-import express from "express":
+import express from "express";
 import cors from 'cors'
 
 //import blogRoutes from './routes/routes.js'
@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 app.get('/',(req,res)=>{
-    res.send('HOLA MUNDO')
+    res.send('HOLA MUNDO G31..')
 })
 
 app.listen(8000,()=> {
